@@ -1,0 +1,48 @@
+h1 {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: rgb(136, 83, 136) 2px 3px 5px; /* gives engraved effect */
+    border-style: none;   /* remove border */
+    background-color: transparent; /* removes the box */
+}
+
+.student {
+    border: 5px solid rgba(203, 197, 251, 0.216);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto; /* centers and adds a little space below */
+}
+
+body img{
+    opacity:0.8;
+}
+h2{
+    color:rgb(242, 183, 242);
+    font-size:35px;
+    font-style:italic;
+    background-color:rgba(57, 55, 55, 0.275) ;
+}
+
+
+body {
+    align-items: center;
+    background-image: url("128033.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;   /* reduced from 50px */
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+li{
+    color:azure;
+    list-style:none;
+}
